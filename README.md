@@ -21,17 +21,17 @@ This project is a Python-based tool designed to process Sentinel-2 satellite ima
 
 1. Clone or download this repository.
 2. Install the required libraries:
-   $$$bash
+   ```bash
    pip install numpy matplotlib rasterio
-   $$$
+   ```
 3. Ensure your Sentinel-2 `.tif` images are placed in a specified folder.
 
 ## Usage
 
 1. Run the program:
-   $$$bash
+   ```bash
    python main.py
-   $$$
+   ```
 2. Follow the prompts:
    - Specify the path to the folder containing your `.tif` images.
    - Select a composition or spectral index from the menu.
@@ -50,9 +50,9 @@ Input should consist of `.tif` files with Sentinel-2 band naming conventions (e.
 ## Example Workflow
 
 1. **Start the Program**:
-   $$$bash
+   ```bash
    python main.py
-   $$$
+   ```
 2. **Specify the Image Folder**:
    Provide the full path to the folder containing your Sentinel-2 `.tif` files.
 3. **Choose an Option**:
